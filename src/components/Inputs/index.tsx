@@ -24,10 +24,15 @@ export function DivInputsCustom({placeholder, Label, Icon, type, hasEye=false}: 
                 <Icon />
                 <Inputs
                     placeholder={placeholder}
-                    type={type === 'password' ? (type ? 'password': 'text'): type}
+                    type={type === "password" ? (isPassword ? "text" : "password") : type}
                     required />
-                  {
-                    isPassword && <FiEye/>
-                  }
+                {
+                    hasEye && (
+                        <>
+                            {isPassword && <FiEye onClick={() => setIsPassword(false)} style={{cursor: 'pointer', marginRight: '20px'}}/>}
+                            {!isPassword && <FiEyeOff onClick={() => setIsPassword(true)} style={{cursor: 'pointer', marginRight: '20px'}}/>}
+                        </>
+                    )
+                }
             </DivInputs>
 }

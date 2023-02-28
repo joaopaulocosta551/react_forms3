@@ -12,6 +12,12 @@ export const DivButton = styled.div`
 
     &:hover{
         background-color: rgba(0, 0, 0, 0.1);
+    };
+
+    @media (max-width: 900px) {
+        margin-bottom: 0.7rem;
+        height: 48px;
+        width: 100%;
     }
 `;
 
@@ -20,4 +26,4 @@ export const ButtonWithIcon = styled.div`
     align-items: center;
     justify-content: center;
     
-`
+`;

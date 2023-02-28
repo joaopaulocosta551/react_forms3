@@ -18,6 +18,7 @@ border: none;
 outline: none;
 background-color: transparent;
 margin-left: 10px;
+width: 90%;
 
 `
 
