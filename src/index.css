@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  background-color: #D5DBE2;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  width: 62.5rem;
+  height: 43.75rem;
+  border-radius: 15px;
+  
+
+}
+.card-left{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.container-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  margin-top: 5.25rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.logo p{
+  color: #065AD8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.title-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.title-text p {
+  font-size: 11px;
+  margin-top: 0.5rem;
+}
+
+/* ===========BUTTON============== */
+.loginWithSocialMedia{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  border-bottom: 1rem;
+  justify-content: space-between;
+  height: 60px;
+}
+
+
+.login-normal{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* ===========================row============================== */
+.horizontal-line{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.horizontal-line p{
+  font-size: 8px;
+  text-align: center;
+  width: 33%;
+}
+
+.row-left, .row-right{
+  height: 2px;
+  width: 33%;
+  background-color: #D5DBE2;
+}
+/* Inputs for login */
+.inputs{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* =========================== hidden label =======================================*/
+
+
+.input-password{
+  justify-content: space-between;
+}
+
+.iconEye{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon-placeholder{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.icon-placeholder input{
+  margin-left: 10px;
+}
+
+.remember{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rememberDiv{
+  display: flex;
+  align-items: center;
+}
+
+.rememberLabel{
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.remember a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #065AD8;
+}
+
+.createAccount{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.createAccount p{
+  font-size: 12px;
+}
+
+.createAccount a{
+  font-size: 12px;
+  text-decoration: none;
+  color: #065AD8;
+  margin-left: 10px;
+}
+/* ==============================================Blue Card============================================ */
+.card-right{
+  display: flex;
+  flex-direction: column;
+  background-color: #065AD8;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgWoman{
+  width: 80%;
+}
+
+.text-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.87rem;
+}
+
+.text-bottom h2{
+  color: white;
+  font-size: 20px;
+}
+
+.text-bottom p{
+  font-size: 10px;
+  margin-top: 0.5rem;
+  color: white;
+}
